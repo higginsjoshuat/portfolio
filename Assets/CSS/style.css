@@ -1,4 +1,57 @@
+body {
+    font-size: 16px;
+    color: #333;
+}
+
+nav {
+    display: block;
+    left: 0;
+    top: 0;
+    margin: 0;
+    height: 100vmax;
+    padding-bottom: 60px;
+    position: fixed;
+    width: 190px;
+    background-color: #fff;
+    box-shadow: 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+
+}
+
+nav ul {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li {
+    display: list-item;
+    line-height: 100%;
+}
+
+main {
+
+}
 
 h1 {
-    color: #333;
+ 
+}
+
+li.nav-logo {
+    background-color: #fafafa;
+    border-bottom: 1px solid #ddd;
+    box-sizing: content-box;
+    min-height: 90px;
+    padding: 30px 30px 40px;
+    position: relative;
+}
+
+.navbar {
+    box-sizing: content-box;
+    display: block;
+    font-weight: 300;
+    height: 1.5rem;
+    line-height: 100%;
+    padding: 10px 0 10px;
 }
