@@ -44,20 +44,23 @@ ul {
 }
 
 li {
-    padding: 1rem;
+
 }
 
-li.logo-container {
+.logo-container {
     display: flex;
-    align-items: center;
     height: 8rem;
-    padding: 1rem .5rem;
     border-bottom: 1px solid #999;
     cursor: pointer;
 }
 
+.logo, .tab {
+    text-decoration: none;
+    color: black;
+}
+
 a.logo {
-    
+    padding: 1rem .7rem;
 }
 
 .logo h1 {
@@ -75,11 +78,112 @@ a.logo {
 
 .nav-btn {
     cursor: pointer;
+    position: relative;
 }
 
-.nav-btn:hover,
-.nav-btn:focus {
-    border-left: 4px solid rgb(4, 35, 121);
+.nav-btn a {
+    display: block;
+    padding: 1rem 1rem 1rem 0;
+}
+
+
+.iconify {
+    font-size: 1.7em;
+}
+
+.mdi {
+    font-size: 1.9em;
+    padding-right: .8rem;
+    padding-left: 1rem;
+}
+
+.fa {
+    padding-left: .2rem;
+    padding-right: 1.2rem;
+    padding-left: 1.3rem;
+}
+
+.iconify[data-icon="fa:user"] {
+    color: rgb(4, 131, 88);
+
+}
+
+.iconify[data-icon="mdi:trending-up"] {
+    color: rgb(12, 161, 154);
+}
+
+.iconify[data-icon="mdi:book-clock"] {
+    color: rgb(35, 62, 153);
+}
+
+.iconify[data-icon="mdi:poll"] {
+    color: rgb(124, 5, 160);
+}
+
+.iconify[data-icon="mdi:trophy"] {
+    color: rgb(255, 196, 0);
+
+}
+
+.iconify[data-icon="mdi:school"] {
+    color: rgb(247, 58, 58);
+}
+
+.iconify[data-icon="mdi:email"] {
+    color: rgb(128, 55, 13);
+}
+
+.iconify[data-icon="mdi:alpha-b-box"] {
+    color: rgb(92, 153, 35);
+}
+
+.iconify[data-icon="mdi:file-document"] {
+    color: rgb(31, 32, 34);
+}
+
+.nav-btn .about:hover,
+.nav-btn .about:focus {
+    border-left: 4px solid rgb(26, 26, 235);
+}
+
+.nav-btn .experience:hover,
+.nav-btn .experience:focus {
+    border-left: 4px solid rgb(255, 102, 0);
+}
+
+.nav-btn .projects:hover,
+.nav-btn .projects:focus {
+    border-left: 4px solid rgb(255, 102, 0);
+}
+
+.nav-btn .skills:hover,
+.nav-btn .skills:focus {
+    border-left: 4px solid rgb(255, 102, 0);
+}
+
+.nav-btn .awards:hover,
+.nav-btn .awards:focus {
+    border-left: 4px solid rgb(255, 102, 0);
+}
+
+.nav-btn .education:hover,
+.nav-btn .education:focus {
+    border-left: 4px solid rgb(255, 102, 0);
+}
+
+.nav-btn .contact:hover,
+.nav-btn .contact:focus {
+    border-left: 4px solid rgb(255, 102, 0);
+}
+
+.nav-btn .blog:hover,
+.nav-btn .blog:focus {
+    border-left: 4px solid rgb(255, 102, 0);
+}
+
+.nav-btn .resume:hover,
+.nav-btn .resume:focus {
+    border-left: 4px solid rgb(255, 102, 0);
 }
 
 /* Index Section */
@@ -132,13 +236,11 @@ a.logo {
 /* Experience Section */
 
 .experience {
-    
 }
 
 /* Projects Section */
 
 .projects {
-    display: block;
 }
 
 /* Skills Section */
